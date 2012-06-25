@@ -35,7 +35,6 @@ namespace Topshelf.Logging
             if (name == null)
                 throw new ArgumentNullException("name");
             _log = log;
-            _log.Debug(() => "");
         }
 
         public bool IsDebugEnabled
@@ -232,7 +231,7 @@ namespace Topshelf.Logging
             return NLog.LogLevel.Off;
         }
 
-        LogMessageGenerator ToGenerator(LogOutputProvider provider)
+		Func<string> ToGenerator(LogOutputProvider provider)
         {
             return () =>
                 {
