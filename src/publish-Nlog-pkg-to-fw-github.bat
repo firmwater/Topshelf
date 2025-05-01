@@ -1,0 +1,1 @@
+dotnet nuget push "Topshelf.NLog\bin\Release\*.nupkg" --api-key <PAT> --skip-duplicate --source "github"
