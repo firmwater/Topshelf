@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
     <PackageId>Firmwater.Topshelf.NLog</PackageId>
+    <AssemblyName>Firmwater.Topshelf.NLog</AssemblyName>
     <Authors>Firmwater</Authors>
-    <PackageVersion>4.3.1</PackageVersion>
+    <PackageVersion>4.3.2</PackageVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>A Topshelf.NLog package 4.3 that was updated to use NLog version 5.4.0 instead of 4.7.5.</Description>
-    <PackageReleaseNotes>2025.05.02: newly created</PackageReleaseNotes>
+    <PackageOutputPath>..\GeneratedNuGetPackages</PackageOutputPath>
+    <Description>A Topshelf.NLog package 4.3 that was updated to use NLog version 5.4.0 (instead of 4.7.5) and its assembly was renamed to have "Firmwater." prefix.</Description>
+    <PackageReleaseNotes>2025.05.05: newly created</PackageReleaseNotes>
     <PackageTags>LMS</PackageTags>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\..\Topshelf.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup>
